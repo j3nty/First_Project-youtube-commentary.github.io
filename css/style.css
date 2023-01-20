@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;700&display=swap');
+
+body {
+    background: linear-gradient(to bottom right, #99E691, #B22DFD);
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    box-sizing: border-box;
+    background-color: #0000004d;
+}
+
+.j3nty {
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+    position: fixed;
+    font-size: 3em;
+    top: 1%;
+
+}
+
+.wrapper {
+    background-color: #323232;
+    padding: 30px;
+    font-family: 'Roboto', sans-serif;
+    border-radius: 20px;
+    color: #fff;
+    width: 450px;
+    height: 668px;
+}
+
+.comments_all {
+    font-size: 1.25em;
+    font-weight: bold;
+}
+
+.wrapper p span {
+    margin-left: 5px;
+    font-weight: 400;
+    color: #717171;
+}
+
+.avatar {
+    margin: 50px 10px 0 0;
+    display: inline-block;
+    border-radius: 50%;
+    width: 45px;
+    height: 45px;
+    background-color: rgb(130, 130, 130);
+}
+
+.wrapper textarea {
+    position: absolute;
+    font-family: 'Roboto', sans-serif;
+    background-color: #323232;
+    height: 16px;
+    width: 350px;
+    resize: none;
+    border: 0;
+    border-bottom: 1px solid rgb(118, 118, 118);
+    outline: 0;
+    color: #fff;
+    padding: 0 0 10px 0;
+    margin-top: 50px;
+}
+
+.wrapper textarea:focus {
+    border-bottom: 1px solid #fff;
+    transition: .3s;
+}
+
+.buttons {
+    position: absolute;
+    margin: -13px 0 0 130px;
+}
+
+.buttons button {
+    border: 0;
+    border-radius: 30px;
+    font-family: 'Roboto', sans-serif;
+    padding: 10px 15px;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.cancel_btn {
+    margin-right: 10px;
+    background-color: #323232;
+    color: #f1f1f1;
+}
+
+.cancel_btn:hover {
+    background-color: #3e3e3e;
+}
+
+.send_btn {
+    color: #0f0f0f;
+    background-color: #3ea6ff;
+}
+
+.send_btn:hover {
+    background-color: #78c1ff;
+}
+
+.avatar_comment {
+    margin: 50px 10px 0 0;
+    display: inline-block;
+    border-radius: 50%;
+    width: 45px;
+    height: 45px;
+    background-color: rgb(130, 130, 130);
+}
+
+#name_comment {
+    text-decoration: none;
+    color: #f1f1f1;
+    font-weight: 700;
+    position: fixed;
+    top: 33%;
+    margin-left: 10px;
+}
+
+.date {
+    color: #aaaa;
+    font-size: 0.8em;
+    position: absolute;
+    left: 44%;
+    top: 33.2%;
+}
+
+.comment_about {
+    position: absolute;
+    top: 35.5%;
+    margin-left: 65px;
+}
+
+
+
+
+
+
+
+
+
+
+
